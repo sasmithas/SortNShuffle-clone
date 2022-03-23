@@ -1,0 +1,62 @@
+
+.container {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+.btn-div {
+    margin-left: 30px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul li {
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 100;
+    background-color: gray;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px 115px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #7bd8e5;
+    border: none;
+}
+@media screen and (min-width: 375px) and (max-width: 960px) {
+    .container {
+        width: 100%;
+    }
+    ul {
+        display: block;
+    }
+    .btn {
+        width: 100px;
+        padding: 10px 15px;
+        display: inline-block;
+        margin: 10px;
+        background-color: #7bd8e5;
+        border: none;
+    }
+    ul li {
+        list-style: none;
+        padding: 10px;
+        border: 1px solid white;
+        margin: 2px;
+        color: #fff;
+        font-size: 35px;
+        text-align: center;
+        display: block;
+    }
+}
